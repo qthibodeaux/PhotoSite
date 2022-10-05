@@ -1,0 +1,29 @@
+.mainContainer {
+    padding: 3rem;
+}
+
+.navSet {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navItems {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navItems > li {
+    font-weight: 600;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .mainContainer {
+        padding: 0
+    }
+
+    .navSet {
+        display: none;
+    }
+}
