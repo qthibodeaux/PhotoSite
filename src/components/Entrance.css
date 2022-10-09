@@ -13,6 +13,10 @@
     justify-content: space-between;
 }
 
+.brandDiv {
+    display: flex;
+}
+
 .brand {
     color: black;
     font-weight: 800;
@@ -21,9 +25,11 @@
 
 .navDiv {
     display: flex;
+    flex-direction: row;
     margin-top: 2px;
     margin-bottom: 2px;
     gap: 0.5rem;
+    align-items: center;
 }
 
 .navA {
@@ -62,5 +68,10 @@
 @media screen and (max-width: 600px) {
     .navA {
         display: none;
+    }
+
+    .brandDiv {
+        display: flex;
+        flex-direction: column;
     }
 }

@@ -18,6 +18,40 @@
     cursor: pointer;
 }
 
+.smallNav {
+    display: none;
+}
+
+.expanded {
+    display: flex;
+    flex-direction: column;
+}
+
+.navBtn {
+    background-color: white;
+    padding: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    color: black;
+}
+
+.expandBtn {
+    background-color: lightgray;
+    color: black;
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 0.25rem;
+}
+
 @media screen and (max-width: 600px) {
     .mainContainer {
         padding: 0
@@ -25,5 +59,15 @@
 
     .navSet {
         display: none;
+    }
+
+    .smallNav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .foot {
+        padding: 2rem;
+        justify-content: space-between;
     }
 }

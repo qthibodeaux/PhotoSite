@@ -1,0 +1,17 @@
+.contactContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.flowerDiv {
+    background-color: black;
+    padding: 15rem;
+    width: 40%;
+}
+
+.flowerImg {
+    max-width: 100%;
+    max-height: 100%;
+    border: 10px solid white;
+    object-fit: contain;
+}
