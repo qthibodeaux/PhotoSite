@@ -39,6 +39,10 @@
     gap: 0.25rem;
 }
 
+.navA > * {
+    margin-top: 0.55rem;
+}
+
 .navIcons {
     color: black;
     font-size: 2rem;

@@ -1,12 +1,20 @@
 .contactContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.contactLeft {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
 }
 
 .flowerDiv {
     background-color: black;
-    padding: 15rem;
-    width: 40%;
+    padding: 8rem;
+    width: 75%;
+    max-height: 50rem;
+    max-width: 30rem;
 }
 
 .flowerImg {
@@ -14,4 +22,60 @@
     max-height: 100%;
     border: 10px solid white;
     object-fit: contain;
+}
+
+.contactRight {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.formDiv {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.formDiv > input {
+    padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .flowerDiv {
+        background-color: black;
+        padding: 5rem;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .flowerDiv {
+        background-color: black;
+        padding: 5rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .flowerDiv {
+        background-color: black;
+        padding: 4rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .flowerDiv {
+        background-color: black;
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contactContainer {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+    }
+
+    .flowerDiv {
+        display: none;
+    }
 }
