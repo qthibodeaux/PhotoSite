@@ -1,5 +1,5 @@
 .mainContainer {
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .navSet {
@@ -20,6 +20,10 @@
 
 .smallNav {
     display: none;
+}
+
+.navBrand {
+    display: flex;
 }
 
 .expanded {

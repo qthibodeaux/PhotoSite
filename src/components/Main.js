@@ -20,7 +20,7 @@ function Main({ change }) {
   return (
     <div className="mainContainer">
       <div className="navSet">
-        <div>
+        <div className="brandDiv">
             <p className='brand'>Janice</p>
             <p className='brand'>Thibodeaux</p>
         </div>
