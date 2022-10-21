@@ -1,0 +1,45 @@
+.servicesContainer {
+    border: 1px solid black;
+    position: relative;
+    height: 100vh;
+}
+
+.heroContainer {
+    background-image: url(../../assets/servhero.jpg);
+    background-repeat: no-repeat;
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.itemsContainer {
+    position: absolute;
+    top: 3rem;
+    align-self: center;
+    padding: 2rem;
+}
+
+.itemsRow {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.itemsCard {
+    background-color: white;
+    padding: 1.3rem;
+    border-radius: 1.3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.itemsCard > h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.itemsCard > ul {
+    display: block;
+    list-style-type: disc;
+    
+}
