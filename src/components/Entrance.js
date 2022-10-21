@@ -5,7 +5,7 @@ function Entrance({ change }) {
     
   return (
     <div className='entranceContainer'>
-        <nav className='navLinks'>
+        <div className='navLinks'>
             <div className="brandDiv">
                 <p className='brand'>Janice</p>
                 <p className='brand'>Thibodeaux</p>
@@ -19,7 +19,7 @@ function Entrance({ change }) {
                 </div>
                 <button type="button" className="enterButton" onClick={() => change('main')}>Enter</button>
             </div>
-        </nav>
+        </div>
     </div>
   )
 }

@@ -2,7 +2,20 @@
     padding: 1rem;
 }
 
-.imgDiv {
-    width: 4rem;
-    height: 8rem;
+.bigDiv {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.centerDiv {
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+}
+
+.imageItem {
+    width: 100%;
 }

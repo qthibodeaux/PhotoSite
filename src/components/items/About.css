@@ -1,0 +1,36 @@
+.aboutContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.aboutCen {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.aboutLeft {
+    padding: 1rem;
+    width: 50%;
+}
+
+.aboutLeft > div {
+    text-align: end;
+}
+
+.aboutRight {
+    width: 50%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.aboutHeader {
+    font-weight: 800;
+    width: 35%;
+}
+
+.aboutPara {
+    width: 50%;
+}

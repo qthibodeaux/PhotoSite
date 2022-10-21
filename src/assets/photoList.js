@@ -17,6 +17,9 @@ import Sixteen from './16p.jpg'
 import Seventeen from './17p.jpg'
 import Eighteen from './18p.jpg'
 
-const list = [One, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten, Eleven, Twelve, Thirteen, Fourteen, Fifteen, Sixteen, Seventeen, Eighteen]
+const list1 = [One, Two, Three, Five, Four, Seventeen]
+const list2 = [Thirteen, Eight, Nine, Ten, Eleven, Twelve]
+const list3 = [Seven, Fourteen, Fifteen, Sixteen, Six, Eighteen]
 
-export { list }
+
+export { list1, list2, list3 }
