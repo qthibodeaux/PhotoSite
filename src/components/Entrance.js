@@ -7,8 +7,7 @@ function Entrance({ change }) {
     <div className='entranceContainer'>
         <div className='navLinks'>
             <div className="brandDiv">
-                <p className='brand'>Janice</p>
-                <p className='brand'>Thibodeaux</p>
+                <p className='brand'>Photography</p>
             </div>
             <div className="navDiv">
                 <div className="navA">

@@ -1,4 +1,4 @@
-import JT from '../../assets/jt.jpg'
+import Candid from '../../assets/candid.jpg'
 import './About.css'
 
 function About() {
@@ -7,11 +7,11 @@ function About() {
       <div className='aboutCen'>
         <div className='aboutLeft'>
           <div>
-            <img src={JT} alt="flowerimage" />
+            <img src={Candid} alt="flowerimage" className='aboutIMG'/>
           </div>
         </div>
         <div className='aboutRight'>
-          <p className='aboutHeader'>Janice Thibodeaux is a Houston based Photographer</p>
+          <p className='aboutHeader'>Photographer</p>
 
           <p className='aboutPara'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, perspiciatis harum doloribus nisi impedit quidem dolore in tempore quod. Tempore cumque eum libero beatae natus quidem dolorum sapiente quos modi.</p>
 

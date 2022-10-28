@@ -18,6 +18,10 @@
     text-align: end;
 }
 
+.aboutIMG {
+    width: 100%;
+}
+
 .aboutRight {
     width: 50%;
     padding: 1rem;
@@ -33,4 +37,22 @@
 
 .aboutPara {
     width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .aboutLeft {
+        display: none;
+    }
+    
+    .aboutRight {
+        width: 100%;
+    }
+
+    .aboutHeader {
+        width: 70%;
+    }
+
+    .aboutPara {
+        width: 100%;
+    }
 }

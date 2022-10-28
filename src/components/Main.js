@@ -21,8 +21,7 @@ function Main({ change }) {
     <div className="mainContainer">
       <div className="navSet">
         <div className="brandDiv">
-            <p className='brand'>Janice</p>
-            <p className='brand'>Thibodeaux</p>
+            <p className='brand'>Photography</p>
         </div>
         <ul className="navItems">
           <li onClick={() => change('entrance')}>Welcome</li>
