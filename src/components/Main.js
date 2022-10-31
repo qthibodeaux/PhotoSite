@@ -4,11 +4,15 @@ import Photos from "./items/Photos";
 import Services from './items/Services'
 import About from './items/About'
 import Contact from './items/Contact'
+import Customer from './items/Customer'
+import AuthButton from './auth/AuthButton';
 import './Main.css'
 
 function Main({ change }) {
   const [expand, setExpand] = useState(false)
   const [activeTab, setActiveTab] = useState('photos')
+
+  const customer = () => setActiveTab('customer')
 
   let context = <p style={{ backgroundColor: 'red', fontSize: '5rem', padding: '3rem', textAlign: 'center'}}>Dev Error</p>
 
@@ -16,6 +20,8 @@ function Main({ change }) {
   else if (activeTab === 'services') context = <Services />
   else if (activeTab === 'about') context = <About />
   else if (activeTab === 'contact') context = <Contact />
+  else if (activeTab === 'customer') context = <Customer />
+
 
   return (
     <div className="mainContainer">
@@ -29,6 +35,9 @@ function Main({ change }) {
           <li onClick={() => setActiveTab('services')}>Services</li>
           <li onClick={() => setActiveTab('about')}>About</li>
           <li onClick={() => setActiveTab('contact')}>Contact</li>
+          <li>
+            <div className='loginDiv'><AuthButton customer={customer}/></div>
+          </li>
         </ul>
       </div>
 
